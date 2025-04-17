@@ -25,8 +25,6 @@ water = np.zeros(length)
 time = 20
 
 for t in range(time):
-    # for wat in water:
-    #    print(wat)
     flood, river, water = water_flow(river, water)
     if not flood:
         break
